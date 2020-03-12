@@ -1153,28 +1153,3 @@
 "classname" "weapon_nailgun"
 "origin" "560 -80 240"
 }
-// entity 43
-{
-"classname" "light_torch_small_walltorch"
-"origin" "596 -164 348"
-}
-// entity 44
-{
-"classname" "item_shells"
-"origin" "576 -224 256"
-}
-// entity 45
-{
-"classname" "weapon_rocketlauncher"
-"origin" "416 -80 16"
-}
-// entity 46
-{
-"classname" "monster_tarbaby"
-"origin" "512 -176 40"
-}
-// entity 47
-{
-"classname" "light_torch_small_walltorch"
-"origin" "534 -236 108"
-}
