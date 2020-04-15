@@ -10,80 +10,59 @@ Output file: FirstTry.bsp
 *** WARNING 02: Multiple info_player_start entities
 *** WARNING 02: Multiple info_player_start entities
 *** WARNING 02: Multiple info_player_start entities
-          626 faces
-          104 brushes
-           48 entities
+          648 faces
+          108 brushes
+           68 entities
             6 unique texnames
-          169 texinfo
+          197 texinfo
 
 Opened WAD: C:/Users/BatGirl/Documents/GameDev/quake-level-design/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          104 brushes
-           80 planes
+          108 brushes
+           85 planes
 ---- CSGFaces ----
-          626 brushfaces
-          383 csgfaces
-          369 mergedfaces
+          648 brushfaces
+          441 csgfaces
+          412 mergedfaces
 ---- SolidBSP ----
-          658 split nodes
-          268 solid leafs
-          325 empty leafs
-           66 water leafs
+          714 split nodes
+          300 solid leafs
+          368 empty leafs
+           47 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1739 leaffaces
-         1684 nodefaces
+         1836 leaffaces
+         1764 nodefaces
 ---- Portalize ----
-          391 vis leafs
-          391 vis clusters
-          923 vis portals
+          415 vis leafs
+          415 vis clusters
+          985 vis portals
 ---- FillOutside ----
-          224 outleafs
----- MergeAll ----
-          299 mergefaces
----- SolidBSP ----
-          140 split nodes
-           71 solid leafs
-           53 empty leafs
-           17 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-          736 leaffaces
-          588 nodefaces
----- Portalize ----
-           70 vis leafs
-           70 vis clusters
-          187 vis portals
----- Tjunc ----
-          391 world edges
-         1765 edge points
-          585 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (532 -180 252), no filling performed.
+Leak file written to FirstTry.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote FirstTry.bsp
-          145 planes             2900
-          735 vertexes           8820
-          140 nodes              3360
-           73 texinfo            2920
-          588 faces             11760
-          361 clipnodes          2888
-           71 leafs              1988
-          736 marksurfaces       1472
-         2932 surfedges         11728
-         1467 edges              5868
-            6 textures          71668
+          149 planes             2980
+         2182 vertexes          26184
+          714 nodes             17136
+          125 texinfo            5000
+         1764 faces             35280
+          377 clipnodes          3016
+          416 leafs             11648
+         1836 marksurfaces       3672
+         7056 surfedges         28224
+         4453 edges             17812
+            6 textures          55348
               lightdata             0
               visdata               0
-              entdata            2915
+              entdata            4338
 
-0.292 seconds elapsed
-Peak memory usage: 4671304 (4.5M)
+0.217 seconds elapsed
+Peak memory usage: 7032132 (6.7M)
